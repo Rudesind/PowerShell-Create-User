@@ -4,8 +4,8 @@ Param (
 
 #-----------------------------------#
 # Script : Create_Local_User.ps1
-# Updated: 09/27/2018
-# Author : Configuration Management
+# Updated: 11/09/2018
+# Author : Zach Nybo <zach.nybo@gmail.com>
 # Version: 1.0
 # Documentation: Create_Local_User.md
 #
@@ -20,8 +20,8 @@ Param (
 #--------------------#
 
 New-Variable SCRIPT -option Constant -value "Create_Local_User.ps1"
-New-Variable AUTHOR -option Constant -value "Configuration Management"
-New-Variable UPDATED -option Constant -value "09/27/2018"
+New-Variable AUTHOR -option Constant -value "Zach Nybo"
+New-Variable UPDATED -option Constant -value "11/09/2018"
 New-Variable VERSION -option Constant -value "1.0"
 
 #-------------#
